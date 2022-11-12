@@ -8,7 +8,7 @@ Webpage com as figuras dos pokemons mais conhecidos por quem já acompanhou um d
 
 ## Orveview page :computer:
 
-Info inicial para abrir as carta de cada pokemon. Clicando na figura do pokemon, você pode ver as abilidades de cada um deles!
+Info inicial para abrir a carta de cada pokemon. Clicando na figura do pokemon, você pode ver as abilidades de cada um deles!
 
 ![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/infomobile.png)
 
