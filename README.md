@@ -10,45 +10,45 @@ Webpage com as figuras dos pokemons mais conhecidos por quem já acompanhou uns 
 
 Info inicial para abrir as carta de cada pokemon. Clicando na figura do pokemon, você pode ver as abilidades de cada um deles!
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\infomobile.png)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/infomobile.png)
 
 Modal com os primeiros pokemons da lista 
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\fullpage.png)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/fullpage.png)
 
 ## Demonstração das cartas do Pokemons
 
 - Rattata
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\cardpokemon-one.png)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/cardpokemon-one.png)
 
 - Squirtle
 
 
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\cardpokemon-two.png)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/cardpokemon-two.png)
 
 - Bulbasaur
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\cardpokemon-three.png)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/cardpokemon-three.png)
 
 ## Botões para carregar mais Pokemons e voltar a lista
 
 
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\buttons.png)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/buttons.png)
 
 ## Snipper de carregamento da página com um delay para ficar mais interativo
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\snipper.png)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/snipper.png)
 
 ## Demonstração das funcionalidades  versão webpage :computer_mouse:
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\modalgif.gif)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/modalgif.gif)
 
 ## Versão mobile :iphone:
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\pokedex-dio\assets\images\modalmobile.gif)
+![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/modalmobile.gif)
 
 
 
