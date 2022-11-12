@@ -50,6 +50,7 @@ Modal com os primeiros pokemons da lista
 
 ![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/modalmobile.gif)
 
-
+##Deploy do projeto, entra e curta!! 🌐:
+[pokeapi]([https://pokeapi.co/](https://portpokedex.netlify.app/))
 
 
