@@ -16,7 +16,7 @@ Modal com os primeiros pokemons da lista
 
 ![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/fullpage.png)
 
-## Demonstração das cartas do Pokemons
+## Demonstração das cartas dos Pokemons
 
 - Rattata
 
@@ -42,7 +42,7 @@ Modal com os primeiros pokemons da lista
 
 ![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/snipper.png)
 
-## Demonstração das funcionalidades  versão webpage :computer_mouse:
+## Demonstrações das funcionalidades versão webpage :computer_mouse:
 
 ![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/modalgif.gif)
 
