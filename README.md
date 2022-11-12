@@ -1,4 +1,4 @@
-# Desafio Pokedéx-DIO
+# Desafio Pokédex-DIO
 
 [dio.me](https://www.dio.me/)
 
@@ -50,6 +50,6 @@ Modal com os primeiros pokemons da lista
 
 ![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/modalmobile.gif)
 
-## Deploy do projeto, entra e curta!! 🌐 [Link da pokedéx](https://portpokedex.netlify.app/)
+## Deploy do projeto, entra e curta!! 🌐 [Link da pokédex](https://portpokedex.netlify.app/)
 
 
