@@ -2,7 +2,7 @@
 
 [dio.me](https://www.dio.me/)
 
-Webpage com as figuras dos pokemons mais conhecidos por quem já acompanhou uns dos animes mais famoso...
+Webpage com as figuras dos pokemons mais conhecidos por quem já acompanhou um dos animes mais famoso...
 
 ## Api da Pokedéx [pokeapi](https://pokeapi.co/) :link:
 
@@ -50,7 +50,6 @@ Modal com os primeiros pokemons da lista
 
 ![](https://github.com/MVinicius3091/pokedex-dio/blob/master/assets/images/modalmobile.gif)
 
-## Deploy do projeto, entra e curta!! 🌐
-[portpokedex](https://portpokedex.netlify.app/)
+## Deploy do projeto, entra e curta!! 🌐 [Link da pokedéx](https://portpokedex.netlify.app/)
 
 
