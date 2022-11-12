@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --bgc--normal-: #a8a77a;
+  --bgc--fire: #fe5608;
+  --bgc--water: #288afa;
+  --bgc--electric: #f7d02c;
+  --bgc-grass: #05f9cd;
+  --bgc--ice: #96d9d6;
+  --bgc--fighting: #c22e28;
+  --bgc--poison: #a33ea1;
+  --bgc--ground: #e2bf65;
+  --bgc--flying: #a98ff3;
+  --bgc--psychic: #f95587;
+  --bgc--bug: #c8e108;
+  --bgc--rock: #b6a136;
+  --bgc--ghost: #735797;
+  --bgc--dragon: #6f35fc;
+  --bgc--dark: #705746;
+  --bgc--steel: #b7b7ce;
+  --bgc--fairy: #d685ad;
+
+  --bgc-li--normal-: #e4e2a9;
+  --bgc-li--fire: #ff994a;
+  --bgc-li--water: #6596ff;
+  --bgc-li--electric: #f5fc93;
+  --bgc-li--grass: #a9f1e4;
+  --bgc-li--ice: #c2e9e7;
+  --bgc-li--fighting: #d45b57;
+  --bgc-li--poison: #c571c4;
+  --bgc-li--ground: #f4bb2c;
+  --bgc-li--flying: #c1b3e7;
+  --bgc-li--psychic: #e88aa6;
+  --bgc-li--bug: #e7fa53;
+  --bgc-li--rock: #c6ba79;
+  --bgc-li--ghost: #a785d4;
+  --bgc-li--dragon: #b49cf1;
+  --bgc-li--dark: #968173;
+  --bgc-li--steel: #d8d8ec;
+  --bgc-li--fairy: #fe56ad;
+}
+
+body {
+  padding: 5px;
+  position: relative;
+  background-color: #000;
+}
+
+.content {
+  padding: 1rem;
+  min-width: 300px;
+  background-color: rgb(229, 228, 228);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.content h1 {
+  font-size: 0.8rem;
+}
+
+.content h1::before {
+  content: url("../images/pokebola.gif");
+  width: 20px;
+  height: 20px;
+}
+
+.content ul.pokemons {
+  width: 90%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  margin: 0 auto;
+}
+
+.content .list-pokemon .name {
+  color: white;
+}
+
+.content li.list-pokemon {
+  padding: 10px 5px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 110px;
+  margin: 5px 0;
+  list-style: none;
+}
+
+.content li.list-pokemon:hover {
+  border: solid #000;
+  transform: scale(1.1);
+}
+
+.content li.grass {
+  background-color: var(--bgc-grass);
+}
+
+.content li.fire {
+  background-color: var(--bgc--fire);
+}
+
+.content li.water {
+  background-color: var(--bgc--water);
+}
+
+.content li.bug {
+  background-color: var(--bgc--bug);
+}
+
+.content li.normal {
+  background-color: var(--bgc--normal-);
+}
+
+.content li.electric {
+  background-color: var(--bgc--electric);
+}
+
+.content li.ice {
+  background-color: var(--bgc--ice);
+}
+
+.content li.fighting {
+  background-color: var(--bgc--fighting);
+}
+
+.content li.flying {
+  background-color: var(--bgc--flying);
+}
+
+.content li.psychic {
+  background-color: var(--bgc--psychic);
+}
+
+.content li.rock {
+  background-color: var(--bgc--rock);
+}
+
+.content li.poison {
+  background-color: var(--bgc--poison);
+}
+
+.content li.ground {
+  background-color: var(--bgc--ground);
+}
+
+.content li.fairy {
+  background-color: var(--bgc--fairy);
+}
+
+.content li.ghost {
+  background-color: var(--bgc--ghost);
+}
+
+.content li.dragon {
+  background-color: var(--bgc--dragon);
+}
+
+.content li.dark {
+  background-color: var(--bgc--dark);
+}
+
+.content li.steel {
+  background-color: var(--bgc--steel);
+}
+
+.content .number {
+  color: #000;
+  opacity: 0.3;
+  text-align: right;
+  font-size: 0.6rem;
+}
+
+.content .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0 0 0;
+}
+
+.content .details .types {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.content .details .type {
+  text-align: center;
+  width: 60px;
+  font-size: 0.675rem;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.content .details .grass {
+  background-color: var(--bgc-li--grass);
+}
+
+.content .details .fire {
+  background-color: var(--bgc-li--fire);
+}
+
+.content .details .water {
+  background-color: var(--bgc-li--water);
+}
+
+.content .details .bug {
+  background-color: var(--bgc-li--bug);
+}
+
+.content .details .normal {
+  background-color: var(--bgc-li--normal-);
+  color: black;
+  list-style: none;
+}
+
+.content .details .electric {
+  background-color: var(--bgc-li--electric);
+  color: black;
+  list-style: none;
+}
+
+.content .details .ice {
+  background-color: var(--bgc-li--ice);
+}
+
+.content .details .fighting {
+  background-color: var(--bgc-li--fighting);
+}
+
+.content .details .flying {
+  background-color: var(--bgc-li--flying);
+}
+
+.content .details .psychic {
+  background-color: var(--bgc-li--psychic);
+}
+
+.content .details .rock {
+  background-color: var(--bgc-li--rock);
+}
+
+.content .details .poison {
+  background-color: var(--bgc-li--poison);
+}
+
+.content .details .ground {
+  background-color: var(--bgc-li--ground);
+}
+
+.content .details .fairy {
+  background-color: var(--bgc-li--fairy);
+}
+
+.content .details .ghost {
+  background-color: var(--bgc-li--ghost);
+}
+
+.content .details .dragon {
+  background-color: var(--bgc-li--dragon);
+}
+
+.content .details .dark {
+  background-color: var(--bgc-li--dark);
+}
+
+.content .details .steel {
+  background-color: var(--bgc-li--steel);
+}
+
+.content .details img {
+  filter: drop-shadow(0 0 10px #000);
+  margin-left: 5px;
+  width: 50px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.btnLoad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.btnLoad #load-more {
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(99, 16, 232);
+  color: white;
+  cursor: pointer;
+}
+
+.btnLoad #load-more::before {
+  content: "»";
+  position: absolute;
+  font-size: 3rem;
+  text-align: center;
+  top: -10px;
+  right: 0;
+  color: rgb(99, 16, 232);
+}
+
+.btnLoad #load-less {
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(99, 16, 232);
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.btnLoad #load-less::after {
+  content: "«";
+  position: absolute;
+  font-size: 3rem;
+  text-align: center;
+  top: -10px;
+  left: 5px;
+  color: rgb(99, 16, 232);
+}
+
+.abilities {
+  display: none;
+}
+
+div.spinner {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(#0000 10%, #8f44fd);
+
+  position: absolute;
+  top: 50%;
+  left: 46%;
+
+  animation: spin 0.8s infinite linear;
+  z-index: 1;
+}
+
+div.spinner::before {
+  content: url("../images/pokebola.gif");
+  position: absolute;
+  top: 34%;
+  left: 34%;
+}
+
+.info-mobile {
+  color: white;
+  position: absolute;
+
+  width: 90vw;
+  height: 95vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  margin: 0px auto;
+
+  padding: 15px;
+  z-index: 1;
+}
+
+.info-mobile h2 {
+  border: solid #000;
+  padding: 40px 5px 40px 40px;
+  border-radius: 80% 80% 0px 80%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
